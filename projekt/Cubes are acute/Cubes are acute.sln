@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubes are acute", "Cubes are acute\Cubes are acute\Cubes are acute.csproj", "{2A57BD9F-D56A-47B0-85CC-B472AEAABD07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubes are acuteContent", "Cubes are acute\Cubes are acuteContent\Cubes are acuteContent.contentproj", "{CB288542-5299-4711-A735-F083BA302834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelEffectPipeline", "ModelEffectPipeline\ModelEffectPipeline.csproj", "{837E0B58-3A52-4E6C-A51B-A84786A6AEFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A57BD9F-D56A-47B0-85CC-B472AEAABD07}.Debug|x86.ActiveCfg = Debug|x86
+		{2A57BD9F-D56A-47B0-85CC-B472AEAABD07}.Debug|x86.Build.0 = Debug|x86
+		{2A57BD9F-D56A-47B0-85CC-B472AEAABD07}.Release|x86.ActiveCfg = Release|x86
+		{2A57BD9F-D56A-47B0-85CC-B472AEAABD07}.Release|x86.Build.0 = Release|x86
+		{CB288542-5299-4711-A735-F083BA302834}.Debug|x86.ActiveCfg = Debug|x86
+		{CB288542-5299-4711-A735-F083BA302834}.Release|x86.ActiveCfg = Release|x86
+		{837E0B58-3A52-4E6C-A51B-A84786A6AEFF}.Debug|x86.ActiveCfg = Debug|x86
+		{837E0B58-3A52-4E6C-A51B-A84786A6AEFF}.Debug|x86.Build.0 = Debug|x86
+		{837E0B58-3A52-4E6C-A51B-A84786A6AEFF}.Release|x86.ActiveCfg = Debug|x86
+		{837E0B58-3A52-4E6C-A51B-A84786A6AEFF}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
