@@ -21,5 +21,5 @@ I focused on database modeling, game design and game logic in PHP and javascript
 This uploaded project only has the game logic.
 
 The database stored all a players move + the random seed making the game completly deterministic.
-The file `BoardGame/spelplan/testingGame.html` bypasses the server and is playable version showcasing the final game.
+The game can be tested here by mocking out the database & website: https://haestflod.github.io/school-projects/projekt/BoardGame/spelplan/testingGame.html
 
