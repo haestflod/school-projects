@@ -36,6 +36,7 @@
 
 */
 
+#makemove { display:none !important; } 
 
 /* 1. Gameboard*/
 #gameboard { margin: 0 auto; overflow: hidden; }
