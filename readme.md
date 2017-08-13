@@ -1,5 +1,7 @@
 Projects:
 
+https://haestflod.github.io/school-projects/
+
 ### Cubes are acute
 An rts developed in 2011 in 3D where you can build & control units to fight.
 There is an AI that can play versus each others or versus the player.
