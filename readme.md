@@ -14,8 +14,10 @@ The A* Pathfinding is originally written by Martin for Cubes are acube project t
 
 ### BoardGame
 A turn based strategy game board game we made in a 5man project in early 2012. 
-Me & Martin did database, game design and game logic in PHP and javascript.
+I focused on database modeling, game design and game logic in PHP and javascript.
+
+This uploaded project only has the game logic.
 
 The database stored all a players move + the random seed making the game completly deterministic.
-The file `BoardGame/spelplan/testingGame.html` bypasses the server and is playable.
+The file `BoardGame/spelplan/testingGame.html` bypasses the server and is playable version showcasing the final game.
 
