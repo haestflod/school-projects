@@ -23,6 +23,10 @@ This uploaded project only has the game logic.
 The database stored all a players move + the random seed making the game completly deterministic.
 The game can be tested here by mocking out the database & website: https://haestflod.github.io/school-projects/projekt/BoardGame/spelplan/testingGame.html
 
+### FbxtoJson
+For my thesis project there was no fbx to json converter that I could find at the time so I implemented my own one.
+It uses the Autodesk FBX SDK to convert from FBX -> JSON.
+
 ### Nintendo DS
 I made a game for the Nintendo DS using a homebrew developer kit. 
 Here's a picture of the game. 
