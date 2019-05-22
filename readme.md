@@ -12,7 +12,7 @@ Me, Martin and Jonathan worked on this project together.
 A* pathfinding implementation in 2011. There are 2 maps in the project to test against.  
 
 This is also a breath & depth first implementation.
-The A* Pathfinding is originally written by Martin for Cubes are acube project that I modified this pathfinding project.
+The A* Pathfinding is originally written by Martin for Cubes are acute project that I modified for this pathfinding project.
 
 ### BoardGame
 A turn based strategy game board game we made in a 5man project in early 2012. 
