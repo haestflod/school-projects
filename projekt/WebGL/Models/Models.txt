@@ -1,0 +1,37 @@
+﻿# Some Comment! See Documentation for complete specifications
+# Availible Shaders:
+# Phong
+name Moo
+path Models/rose.obj
+thumbnail Models/Thumbnails/RoseThumbnail.png
+shader phONg
+diffusemap Textures/rose.png
+normalmap Textures/rosenormal.png
+?
+name HopeCube
+path Models/testobject2.obj
+thumbnail Models/Thumbnails/HopecubeThumbnail.png
+shader phong
+diffusemap Textures/testtexture.png
+normalmap Textures/TestNormalMap.png
+?
+name HopeCubes
+path Models/hopecube3.obj
+thumbnail Models/Thumbnails/DoublecubeThumb.png
+shader Phong
+diffusemap Textures/testtexture.png
+normalmap Textures/TestNormalMap.png
+?
+name Modle-Room
+path Models/Testroom.obj
+thumbnail Models/Thumbnails/TestRoomThumb.png
+shader phong
+diffusemap Textures/TestroomCLR.png
+normalmap Textures/rosenormal.png
+?
+name Testy
+path Models/player.json
+thumbnail Models/Thumbnails/player.jpg
+shader Phong
+diffusemap Textures/testtexture.png
+normalmap Textures/testNormalMap.png

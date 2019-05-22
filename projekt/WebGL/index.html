@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="iso-8859-1" />
+    <title>Irinori model viewer!</title>
+    
+    <link rel="Stylesheet" href="style.css" type="text/css" /> 
+</head>
+	 
+<body>   
+    <!-- the modelviewer content-->
+    <div id="irinori_maincontent">
+        <noscript>This application requires javascript and HTML 5!</noscript>    
+   
+        <canvas id="glcanvas" width="640" height="480">  
+            Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.  
+        </canvas>
+        <!-- The inline css puts it in the middle of the canvas -->
+        <img id="irinori_maincontent_loading" src="Images/loading.gif" alt="" class="posAbsolute" style="margin-left:20%;left:296px;top:214px;" />
+        <!-- Where you get to choose from the models! -->
+        <div id="modellist">                       
+        </div>
+        <!-- The buttons that are on the toolbar are declared here -->
+        <div id="toolbar">
+            
+            <a href="#" class="toolbaricon" id="toolbar_scenesettings">
+                <img class="toolbar_unfocused" src="Images/settings_small.png" alt="Show/Hide scene settings" />
+            </a>
+            <a href="#" class="toolbaricon" id="toolbar_listviewertoggle">
+                <img class="toolbar_unfocused" src="Images/listviewertoggle.jpg" alt="Toggle between slider and grid models mode" />
+            </a>
+            <a href="#" class="toolbaricon" id="toolbar_instructions">
+                <img class="toolbar_unfocused" src="Images/Help.jpg" alt="Show/Hide instructions" />
+            </a>
+        </div>          
+        <div id="animationChoices" ></div>
+        <!-- The content result after clicking a button on the toolbar -->
+        <div id="toolbar_content" ></div>
+    <!-- End of irinori_maincontent -->
+    </div>
+    
+    
+    <script type="text/javascript" src="js/utility/Htmltags.js" ></script>
+    <script type="text/javascript" src="js/Utility/Paths.js"></script>
+    <script type="text/javascript" src="js/Utility/Tools.js"> </script>
+    <script type="text/javascript" src="js/Utility/FeatureCompatibility.js" ></script>     
+    <script type="text/javascript" src="js/Utility/ScriptLoader.js" ></script>
+    
+
+    <!-- minified -->
+    <!--<script src="Js/Utility/glMatrix-9-5-0-min.js" type="text/javascript"></script>
+    <script src="irinori-min.js" type="text/javascript"></script>
+    -->
+</body>
+</html>
