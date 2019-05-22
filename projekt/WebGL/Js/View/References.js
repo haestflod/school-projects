@@ -1,0 +1,10 @@
+///<reference path="../References.js" />
+///<reference path="ViewerControls.js" />
+///<reference path="ModelListItem.js" />
+/// <reference path="ModelListView.js" />
+/// <reference path="AnimationChooser.js" />
+/// <reference path="ModelListGridView.js" />
+/// <reference path="ModelListSliderView.js" />
+/// <reference path="Toolbarhandler.js" />
+/// <reference path="ToolbarButtons.js" />
+/// <reference path="SceneSettingsView.js" />

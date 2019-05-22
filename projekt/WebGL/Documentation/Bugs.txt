@@ -1,0 +1,20 @@
+Major bugs:
+
+- When animation goes from frame end -> 0 (start) it sucks.
+
+- Some bug that causes the first animation sequence to not work properly.
+
+- Lights are totally not working as intended, probably a normal issue
+
+- The "auto position" function does not work with bone modifiers, so it should take those in account when calculating the auto position.
+
+
+************************
+************************
+
+Minor bugs:
+
+- If ModelListSliderView.m_currentSliderIndex is greater than ModelListView.m_items.length
+LoadingGIF is visible and stays visible until you select a model. Could confuse a user!
+
+- If user clicks on a model and it doesn't load and then goes back to a loaded model the loading GIF is still visible.

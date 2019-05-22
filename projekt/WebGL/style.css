@@ -1,0 +1,179 @@
+* { padding:0px; margin:0px; line-height:1; }
+
+body
+{
+    background-repeat:repeat-x;    
+    background:url("Images/bg.jpg");
+    height:100%;           
+}
+
+.noselect
+{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none; 
+}
+
+.focused
+{
+    border-width:1px;  
+    border-style:solid;
+    border-color:Highlight;
+}
+.unfocused
+{
+    border-width:1px;  
+    border-style:solid;
+    border-color:#B6B6B6;
+    
+}
+
+#irinori_maincontent
+{
+    width:60%;
+    margin-left:20%;
+    padding-left:5px;
+    padding-top:5px;   
+    
+}
+    #irinori_maincontent #glcanvas
+    {        
+    }
+    /* a class to have elements as position:absolute */
+    #irinori_maincontent .posAbsolute
+    {
+        position:absolute;
+    }
+    /* Start of modellist css */        
+    #irinori_maincontent #modellist
+    {
+        /* this width is the same width as the canvas */
+        width:640px;      
+        height: 144px;                 
+    }
+        /* Slider Css */
+        #irinori_maincontent #modellist #modellist_slider_content
+        {
+            background-color:#555;
+            /*width:100%;*/
+            height:100%;
+            overflow:auto;                                       
+        }
+            #irinori_maincontent #modellist #modellist_slider_content .item
+            {                    
+                float:left;                    
+            }                
+            #irinori_maincontent #modellist #modellist_slider_content a
+            {
+                padding-left:4px;
+                padding-top:3px;                                                     
+            }
+                #irinori_maincontent #modellist #modellist_slider_content a img
+                {
+                    max-width:128px;
+                    max-height:128px;
+                }        
+            #irinori_maincontent #modellist #modellist_slider_content .selected
+            {
+                border:2px Solid Green;
+            }            
+        #irinori_maincontent #modellist #modellist_slider_left
+        {                
+            width:25px;
+            height:100%;
+            float:left;                
+        }                                   
+        #irinori_maincontent #modellist #modellist_slider_right
+        {                
+            width:25px;
+            height:100%;
+            float:right;                
+        }
+        /* End of slider */
+
+        /* Start of Grid */
+        #irinori_maincontent #modellist #modellist_grid_content
+        {
+            background-color:#555;
+            height:100%;
+            overflow:auto;
+        }            
+            #irinori_maincontent #modellist #modellist_grid_content a
+            {
+                padding-left:4px;
+                padding-top:3px;
+                                                                 
+            }
+                    #irinori_maincontent #modellist #modellist_grid_content a img
+                    {
+                        max-width:64px;
+                        max-height:64px;
+                    }
+            #irinori_maincontent #modellist #modellist_grid_content .selected
+            {
+                border:2px Solid Green;
+            }  
+        /* End of Grid */   
+    /* End of modellist */
+    /* Start of Toolbar */
+    #irinori_maincontent #toolbar
+    {
+        background-color:#333;
+        /* the width of the canvas/ modellist */
+        width:640px;
+        height:40px;
+        margin:0;
+        padding:0;                                                     
+    }
+        #irinori_maincontent #toolbar .toolbaricon
+        {
+            width:40px;
+            height:inherit;
+            float:left;                
+        }
+        #irinori_maincontent #toolbar .toolbar_unfocused
+        {
+            width:25px;
+            height:25px;
+            margin-left:7px;
+            margin-top:7px;
+        }
+        #irinori_maincontent #toolbar .toolbar_focused
+        {
+            width:30px;
+            height:30px;                
+            margin-left:5px;
+            margin-top:5px;
+        }
+        #irinori_maincontent #toolbar .toolbar_tooltip
+        {
+            position:absolute;
+            background-color:silver;
+            height:25px;
+            padding-top:4px;
+            padding-left:4px;
+            padding-right:4px;
+            font-weight:bold;                              
+        }
+    /*End of Toolbar */
+    #irinori_maincontent #toolbar_content #rotationSpeed
+    {        
+        display:inline-block;      
+    }
+        #irinori_maincontent #toolbar_content #rotationSpeed #rotationSpeedSlider
+        {
+            float:left;            
+        }
+        #irinori_maincontent #toolbar_content #rotationSpeed #rotationSpeedValue
+        {
+            float:left;
+            margin-left:3px;
+            font-weight:bold;
+        }
+
+    #irinori_maincontent #animationChoices
+    {
+        margin-top:5px;
+    }

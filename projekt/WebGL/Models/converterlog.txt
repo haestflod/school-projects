@@ -1,0 +1,7 @@
+Started Converter
+Finished loading fbx scene. Starting to fetch scene data
+Setting Mesh, bone & skeleton data
+Setting Animation data
+Started Exporting data
+Finished exporting
+Finished Converting
