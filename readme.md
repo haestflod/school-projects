@@ -1,6 +1,6 @@
 Projects:
 
-https://haestflod.github.io/school-projects/
+https://saaratrix.github.io/school-projects/
 
 ### Cubes are acute
 An rts developed in 2011 in 3D where you can build & control units to fight.
@@ -21,7 +21,7 @@ I focused on database modeling, game design and game logic in PHP and javascript
 This uploaded project only has the game logic.
 
 The database stored all a players move + the random seed making the game completly deterministic.
-The game can be tested here by mocking out the database & website: https://haestflod.github.io/school-projects/projekt/BoardGame/spelplan/testingGame.html
+The game can be tested here by mocking out the database & website: https://saaratrix.github.io/school-projects/projekt/BoardGame/spelplan/testingGame.html
 
 ### FbxtoJson
 For my thesis project there was no fbx to json converter that I could find at the time so I implemented my own one.
